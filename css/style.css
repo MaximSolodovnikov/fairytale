@@ -2,6 +2,7 @@
 	margin: 0 auto;
 	width: 960px;
 	background-color: yellow;
+	border-radius: 10px;
 }
 
 #header {
@@ -53,9 +54,15 @@
 	text-transform: uppercase;
 	padding: 5px 15px;
 	
-	background-color: green;
+	background-color: #00B500;
 	border: 3px solid pink;
 	border-radius: 10px;
+}
+
+.menu_active {
+	color: white !important;
+	background-color: #FFC0CB !important;
+	border: 3px solid #FF5757 !important;
 }
 
 #content {
