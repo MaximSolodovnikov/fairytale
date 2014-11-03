@@ -26,7 +26,7 @@
 	position: absolute;
 	left: 20%;
 	top:10%;
-	text-shadow: red 1px 0px, red 1px 1px, red 0px 1px, red -1px 1px, red -1px 0px, red -1px -1px, red 0px -1px, red 1px -1px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px;
+	text-shadow: #FF4444 1px 0px, #FF4444 1px 1px, #FF4444 0px 1px, #FF4444 -1px 1px, #FF4444 -1px 0px, #FF4444 -1px -1px, #FF4444 0px -1px, #FF4444 1px -1px, #FF4444 0 0 3px, #FF4444 0 0 3px, #FF4444 0 0 3px, #FF4444 0 0 3px, #FF4444 0 0 3px, #FF4444 0 0 3px, #FF4444 0 0 3px, #FF4444 0 0 3px;
 }
 
 #text_header {
@@ -34,7 +34,7 @@
 	padding-top: 180px;
 	font-size: 20px;
 	color: pink;
-	text-shadow: red 1px 0px, red 1px 1px, red 0px 1px, red -1px 1px, red -1px 0px, red -1px -1px, red 0px -1px, red 1px -1px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px;
+	text-shadow: #FF4444 1px 0px, #FF4444 1px 1px, #FF4444 0px 1px, #FF4444 -1px 1px, #FF4444 -1px 0px, #FF4444 -1px -1px, #FF4444 0px -1px, #FF4444 1px -1px, #FF4444 0 0 1px, #FF4444 0 0 1px, #FF4444 0 0 1px, #FF4444 0 0 1px, #FF4444 0 0 1px, #FF4444 0 0 1px, #FF4444 0 0 1px, #FF4444 0 0 3px;
 }
 /*---END Curved text---*/
 
@@ -66,9 +66,17 @@
 }
 
 #content {
+	padding: 25px;
 	margin: 0 auto;
-	width: 960px;
 	background-color: #D0FF69;
+	color: #007600;
+	height: 300px; /*Временно*/
+}
+
+#content p {
+	color: #FF4C4C;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 #footer {
