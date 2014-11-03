@@ -1,0 +1,71 @@
+#wrapper {
+	margin: 0 auto;
+	width: 960px;
+	background-color: yellow;
+}
+
+#header {
+	margin: 0 auto;
+	width: 960px;
+	background-color: #D0FF69;
+	/*height: 250px;*/
+}
+/*---Curved text---*/
+.content {
+	margin:40px auto;
+	text-align:center;
+}
+			
+#curved {
+	font: 50px/1.4 georgia, arial;
+	letter-spacing: 0;
+	color: pink;
+	margin-left: 350px;
+	margin-top: -40px;
+	position: absolute;
+	left: 20%;
+	top:10%;
+	text-shadow: red 1px 0px, red 1px 1px, red 0px 1px, red -1px 1px, red -1px 0px, red -1px -1px, red 0px -1px, red 1px -1px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px;
+}
+
+#text_header {
+	margin-left: 330px;
+	padding-top: 180px;
+	font-size: 20px;
+	color: pink;
+	text-shadow: red 1px 0px, red 1px 1px, red 0px 1px, red -1px 1px, red -1px 0px, red -1px -1px, red 0px -1px, red 1px -1px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px, red 0 0 3px;
+}
+/*---END Curved text---*/
+
+.phon_header {
+	margin-left: 410px;
+	padding-bottom: 10px;
+	color: #FF6E86;
+}
+   
+#navigation ul li {
+	display: inline-block;
+	width: 150px;
+}
+
+#navigation ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 5px 15px;
+	
+	background-color: green;
+	border: 3px solid pink;
+	border-radius: 10px;
+}
+
+#content {
+	margin: 0 auto;
+	width: 960px;
+	background-color: #D0FF69;
+}
+
+#footer {
+	margin: 0 auto;
+	width: 960px;
+	background-color: grey;
+}

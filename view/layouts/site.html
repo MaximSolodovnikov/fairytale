@@ -2,13 +2,35 @@
 <html>
 	<head>
 		<title></title>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/jquery.lettering.js"></script>
+		<script type="text/javascript" src="js/eliptext.js"></script>
+		<script type="text/javascript" src="js/my_scripts.js"></script>
 	</head>
 	<body>
 		<div id="wrapper">
-			<div id="header"></div>
-			<div id="navigation"></div>
-			<div id="content"></div>
-			<div id="footer"></div>
+			<div id="header">
+				
+				<span id="curved">В гостях у сказки</span><br />
+				<p id="text_header">Организация детских праздников</p>
+				<p class="phon_header">+38 (050) 402 89 80</p>
+				<p class="phon_header">+38 (096) 109 98 41</p>
+				
+			</div>
+			
+			<div id="navigation">
+				<ul>
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Галерея</a></li>
+					<li><a href="#">Прайс</a></li>
+				</ul>
+			</div>
+			
+			<!--content-->
+			<?php require_once "view/pages/" . $view . ".php";?>
+			
+			<div id="footer">Это footer</div>
 		</div>
 	</body>
 </html>
