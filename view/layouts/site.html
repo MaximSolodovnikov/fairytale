@@ -9,28 +9,43 @@
 		<script type="text/javascript" src="js/my_scripts.js"></script>
 	</head>
 	<body>
-		<div id="wrapper">
-			<div id="header">
-				
-				<span id="curved">В гостях у сказки</span><br />
-				<p id="text_header">Организация детских праздников</p>
-				<p class="phon_header">+38 (050) 402 89 80</p>
-				<p class="phon_header">+38 (096) 109 98 41</p>
-				
+		<div id="supermegawrapper">
+			<div id="megawrapper">
+				<table id="wrapper">
+					<tr id="header">
+						<td>
+						
+						</td>	
+					</tr>
+					<tr id="tr_curved">
+						<td><div id="curved">В гостях у сказки</div></td>
+					</tr>
+					<tr id="main_img">
+						<td><img src="css/img/65157841_b2813a46d3c11c.png" /></td>
+					</tr>
+					<tr>		
+						<td>
+							<p id="text_header">Организация детских праздников</p>
+							<p class="phon_header">(066)-223-30-68</p>
+						</td>	
+					</tr>
+					<tr id="navigation">		
+						<td>
+							<ul>
+								<li><a href="index.php" <?php if($view == 'index') echo "class = 'menu_active'";?>>Главная</a></li>
+								<li><a href="index.php?view=gallery" <?php if($view == 'gallery') echo "class = 'menu_active'";?>>Галерея</a></li>
+								<li><a href="index.php?view=price" <?php if($view == 'price') echo "class = 'menu_active'";?>>Прайс</a></li>
+							</ul>
+						</td>	
+					</tr>
+					<tr id="content">		
+						<td>
+							<!--content-->
+							<?php require_once "view/pages/" . $view . ".php";?>
+						</td>	
+					</tr>
+				</table>
 			</div>
-			
-			<div id="navigation">
-				<ul>
-					<li><a href="index.php" <?php if($view == 'index') echo "class = 'menu_active'";?>>Главная</a></li>
-					<li><a href="index.php?view=gallery" <?php if($view == 'gallery') echo "class = 'menu_active'";?>>Галерея</a></li>
-					<li><a href="index.php?view=price" <?php if($view == 'price') echo "class = 'menu_active'";?>>Прайс</a></li>
-				</ul>
-			</div>
-			
-			<!--content-->
-			<?php require_once "view/pages/" . $view . ".php";?>
-			
-			<div id="footer">Это footer</div>
-		</div>
+		</div>	
 	</body>
 </html>

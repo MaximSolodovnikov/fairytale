@@ -1,3 +1,3 @@
 $(document).ready(function () {
-	$('#curved').elipText({radius: 240});
+	$('#curved').elipText({radius: 290});
 });
