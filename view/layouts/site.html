@@ -30,12 +30,16 @@
 							<p class="phon_header">(066)-223-30-68</p>
 						</td>	
 					</tr>
+					<tr id="main_img">		
+						<td><img src="css/img/3684721.png" /></td>	
+					</tr>
 					<tr id="navigation">		
 						<td>
 							<ul>
 								<li><a href="index.php" <?php if($view == 'index') echo "class = 'menu_active'";?>>Главная</a></li>
 								<li><a href="index.php?view=gallery" <?php if($view == 'gallery') echo "class = 'menu_active'";?>>Галерея</a></li>
 								<li><a href="index.php?view=price" <?php if($view == 'price') echo "class = 'menu_active'";?>>Прайс</a></li>
+								<li><a href="index.php?view=program" <?php if($view == 'program') echo "class = 'menu_active'";?>>Праграммы</a></li>
 							</ul>
 						</td>	
 					</tr>
@@ -43,6 +47,11 @@
 						<td>
 							<!--content-->
 							<?php require_once "view/pages/" . $view . ".php";?>
+						</td>	
+					</tr>
+					<tr id="footer">		
+						<td>
+							
 						</td>	
 					</tr>
 				</table>

@@ -58,7 +58,7 @@ body {
 
 #navigation {
 	float: left;
-	margin-top: -160px;
+	margin-top: -330px;
 }
 
 #navigation ul{
@@ -66,7 +66,7 @@ body {
 	padding: 25px;
 	list-style-type:none;
 	border: 3px solid #7C6794;
-	width: 100px;
+	width: 130px;
 	background-color: #D6B2FF;
 	border-radius: 10px;
 }
@@ -78,6 +78,7 @@ body {
 	text-align: center;
 	padding: 5px 10px;
 	border-radius: 10px;
+	color: #584A68;
 }
 
 
@@ -91,7 +92,7 @@ body {
 	padding: 10px;
 	margin-right: 90px;
 	background-color: #D6B2FF;
-	color: #551A8B;
+	color: #584A68;
 	font-size: 18px;
 	float: right;
 }
@@ -103,7 +104,7 @@ body {
 	margin-right: 90px;
 	margin-top: 20px;
 	background-color: #D6B2FF;
-	color: #551A8B;
+	color: #584A68;
 	font-size: 18px;
 	float: right;
 }
@@ -115,12 +116,12 @@ body {
 
 #content_index a{
 	text-decoration: none;
+	color: #584A68;
 }
 
 #footer {
 	margin: 0 auto;
 	width: 960px;
-	background-color: grey;
 }
 /*--slider--*/
 #content_slider {
@@ -129,7 +130,7 @@ body {
 	margin-right: 90px;
 	margin-top: -40px;
 	background-color: #D6B2FF;
-	color: #551A8B;
+	color: #584A68;
 	font-size: 18px;
 	float: right;
 	height:500px;
