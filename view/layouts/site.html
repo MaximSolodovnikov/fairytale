@@ -1,12 +1,15 @@
 <!Doctype html>
 <html>
 	<head>
-		<title></title>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<link rel="stylesheet" href="css/style.css" />
 		<script type="text/javascript" src="js/jquery.lettering.js"></script>
 		<script type="text/javascript" src="js/eliptext.js"></script>
 		<script type="text/javascript" src="js/my_scripts.js"></script>
+		<meta name="keywords" content="<?=$page_title['keywords']?>" />
+		<meta name="description" content="<?=$page_title['description']?>" />
+		<meta name="title" content="<?=$page_title['title']?>" />
+		<title><?=$page_title['title']?></title>
 
 	</head>
 	<body>
@@ -36,10 +39,14 @@
 					<tr id="navigation">		
 						<td>
 							<ul>
-								<li><a href="index.php" <?php if($view == 'index') echo "class = 'menu_active'";?>>Главная</a></li>
-								<li><a href="index.php?view=gallery" <?php if($view == 'gallery') echo "class = 'menu_active'";?>>Галерея</a></li>
-								<li><a href="index.php?view=price" <?php if($view == 'price') echo "class = 'menu_active'";?>>Прайс</a></li>
-								<li><a href="index.php?view=program" <?php if($view == 'program') echo "class = 'menu_active'";?>>Праграммы</a></li>
+								<?php 
+									$menu = get_menu();
+									foreach($menu as $item): ?>
+										
+										<li><a href="index.php?view=<?=$item['title_url'];?>" <?php if($view == $item['title_url']) echo "class = 'menu_active'";?>><?=$item['title']?></a></li>
+									
+									<?php endforeach;?>
+							
 							</ul>
 						</td>	
 					</tr>
