@@ -39,15 +39,21 @@ body {
 	 top: 0%;
 }
 
+#left_img {
+	float:left;
+}
+
 #main_img {
 	text-align: center;
+	margin-bottom: 10px;
+	/*float:right;*/
 }
 
 #text_header {
 	text-align: center;
 	font-size: 27px;
 	color: #6CA9FF;
-	margin-top: 10px;
+	margin-top: -20px;
 	text-shadow: 1px 1px 2px black, 0 0 1em blue;
 }
 
@@ -63,9 +69,9 @@ body {
 
 #navigation ul{
 	margin-left: 25px;
-	padding: 25px;
+	padding: 15px;
 	list-style-type:none;
-	border: 3px solid #7C6794;
+	/*border: 3px solid #7C6794;*/
 	width: 130px;
 	background-color: #D6B2FF;
 	border-radius: 10px;
@@ -102,7 +108,7 @@ body {
 	text-align:justify;
 	padding: 10px;
 	margin-right: 90px;
-	margin-top: 20px;
+	margin-top: -10px;
 	background-color: #D6B2FF;
 	color: #584A68;
 	font-size: 18px;
